@@ -10,10 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBAction func magicbutton(_ sender: Any) {
-        
+        changelabel.text=type.text
     }
     @IBOutlet weak var changelabel: UILabel!
     @IBOutlet weak var type: UITextField!
+    @IBAction func reset(_ sender: Any) {
+        type.text=""
+        changelabel.text="STUFF"
+        easteregg.text=""
+    }
+    @IBAction func SECRET(_ sender: Any) {
+        easteregg.text="💩💩💩💩💩💩💩💩💩💩💩💩"
+    }
+    @IBOutlet weak var easteregg: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
