@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3FD5408B1EBA65AB001E4602"
+               BlueprintIdentifier = "3F32FA461EBBB78700D47718"
                BuildableName = "HW2.app"
                BlueprintName = "HW2"
                ReferencedContainer = "container:HW2.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3FD5408B1EBA65AB001E4602"
+            BlueprintIdentifier = "3F32FA461EBBB78700D47718"
             BuildableName = "HW2.app"
             BlueprintName = "HW2"
             ReferencedContainer = "container:HW2.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3FD5408B1EBA65AB001E4602"
+            BlueprintIdentifier = "3F32FA461EBBB78700D47718"
             BuildableName = "HW2.app"
             BlueprintName = "HW2"
             ReferencedContainer = "container:HW2.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3FD5408B1EBA65AB001E4602"
+            BlueprintIdentifier = "3F32FA461EBBB78700D47718"
             BuildableName = "HW2.app"
             BlueprintName = "HW2"
             ReferencedContainer = "container:HW2.xcodeproj">

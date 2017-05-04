@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  HW2
 //
-//  Created by Student on 5/3/17.
+//  Created by Student on 5/4/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
 
@@ -14,39 +14,40 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    let apple="$1"
-    let steak="$9"
-    let chicken="$5"
-    let banana="$1"
-    let bread="$2"
-    let icecream="$7"
-    let yogurt="$4"
-    
 
-    @IBOutlet weak var price: UILabel!
-    @IBOutlet weak var textfield: UITextField!
-    @IBAction func BUY(_ sender: Any) {
-        if textfield.text=="Apple" {
-            price.text="1$"
-        }
-        if textfield.text=="Steak" {
-            price.text="9$"
-        }
-        if textfield.text=="Chicken" {
-            price.text="5$"
-        }
-        if textfield.text=="Banana" {
-            price.text="1$"
-        }
-        if textfield.text=="Bread" {
-            price.text="2$"
-        }
-        if textfield.text=="Ice Cream" {
-            price.text="7$"
-        }
-        if textfield.text=="Yogurt" {
-            price.text="4$"
-        }
+    @IBOutlet weak var total: UILabel!
+    var totalprice=0
+    @IBAction func apple(_ sender: Any) {
+        totalprice=totalprice+1
+        total.text="$\(totalprice)"
+    }
+    @IBAction func steak(_ sender: Any) {
+        totalprice=totalprice+9
+        total.text="$\(totalprice)"
+    }
+    @IBAction func chicken(_ sender: Any) {
+        totalprice=totalprice+5
+        total.text="$\(totalprice)"
+    }
+    @IBAction func banana(_ sender: Any) {
+        totalprice=totalprice+2
+        total.text="$\(totalprice)"
+    }
+    @IBAction func bread(_ sender: Any) {
+        totalprice=totalprice+3
+        total.text="$\(totalprice)"
+    }
+    @IBAction func ice_cream(_ sender: Any) {
+        totalprice=totalprice+7
+        total.text="$\(totalprice)"
+    }
+    @IBAction func yogurt(_ sender: Any) {
+        totalprice=totalprice+4
+        total.text="$\(totalprice)"
+    }
+    @IBAction func reset(_ sender: Any) {
+        totalprice=0
+        total.text="$\(totalprice)"
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
