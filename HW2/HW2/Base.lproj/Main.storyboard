@@ -61,7 +61,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Njz-Pj-0gQ">
-                                <rect key="frame" x="111" y="150" width="153" height="57"/>
+                                <rect key="frame" x="0.0" y="150" width="375" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="47"/>
                                 <nil key="textColor"/>
@@ -214,6 +214,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViQ-Bv-BXb">
+                                <rect key="frame" x="244" y="28" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Product Pictures"/>
+                                <connections>
+                                    <segue destination="xEN-tQ-qyL" kind="showDetail" action="showViewController:sender:" id="4az-oY-zVV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -281,7 +289,7 @@
                                 <rect key="frame" x="222" y="217" width="133" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bread.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="dMI-0T-PKn">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="braed.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="dMI-0T-PKn">
                                 <rect key="frame" x="11" y="362" width="152" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -299,8 +307,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ice cream.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="NrG-A7-LEQ">
-                                <rect key="frame" x="258" y="362" width="60" height="93"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ice cream.png" translatesAutoresizingMaskIntoConstraints="NO" id="NrG-A7-LEQ">
+                                <rect key="frame" x="196" y="362" width="179" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yogurt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5b-Kr-WK1">
@@ -310,10 +318,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yogurt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="rzk-LP-Wry">
-                                <rect key="frame" x="132" y="507" width="111" height="93"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yogurt.png" translatesAutoresizingMaskIntoConstraints="NO" id="rzk-LP-Wry">
+                                <rect key="frame" x="145" y="507" width="84" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4f-Uf-cTR">
+                                <rect key="frame" x="117" y="629" width="142" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to shopping"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="GkI-pn-fs7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -326,10 +342,10 @@
     <resources>
         <image name="apple.png" width="2852" height="3487"/>
         <image name="banana.jpeg" width="280" height="180"/>
-        <image name="bread.jpeg" width="294" height="172"/>
+        <image name="braed.jpeg" width="294" height="172"/>
         <image name="chicken.jpeg" width="225" height="225"/>
-        <image name="ice cream.jpeg" width="172" height="293"/>
+        <image name="ice cream.png" width="450" height="215"/>
         <image name="steak.jpeg" width="275" height="183"/>
-        <image name="yogurt.jpeg" width="225" height="225"/>
+        <image name="yogurt.png" width="343" height="402"/>
     </resources>
 </document>

@@ -7,28 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F2FDB761EC25A920043EDEC /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FDB751EC25A920043EDEC /* apple.png */; };
-		3F2FDB781EC25A970043EDEC /* steak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FDB771EC25A970043EDEC /* steak.jpeg */; };
-		3F2FDB7A1EC25A9D0043EDEC /* chicken.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FDB791EC25A9D0043EDEC /* chicken.jpeg */; };
-		3F2FDB7C1EC25AA40043EDEC /* banana.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FDB7B1EC25AA40043EDEC /* banana.jpeg */; };
-		3F2FDB7E1EC25AAC0043EDEC /* bread.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FDB7D1EC25AAC0043EDEC /* bread.jpeg */; };
-		3F2FDB801EC25AB10043EDEC /* ice cream.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FDB7F1EC25AB10043EDEC /* ice cream.jpeg */; };
-		3F2FDB821EC25AB80043EDEC /* yogurt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FDB811EC25AB80043EDEC /* yogurt.jpeg */; };
 		3F32FA4B1EBBB78700D47718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32FA4A1EBBB78700D47718 /* AppDelegate.swift */; };
 		3F32FA4D1EBBB78700D47718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32FA4C1EBBB78700D47718 /* ViewController.swift */; };
 		3F32FA501EBBB78700D47718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F32FA4E1EBBB78700D47718 /* Main.storyboard */; };
 		3F32FA521EBBB78700D47718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F32FA511EBBB78700D47718 /* Assets.xcassets */; };
 		3F32FA551EBBB78700D47718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F32FA531EBBB78700D47718 /* LaunchScreen.storyboard */; };
+		3F50A81A1EC39E30005EAAB7 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F50A8191EC39E30005EAAB7 /* apple.png */; };
+		3F50A81C1EC39E37005EAAB7 /* steak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F50A81B1EC39E37005EAAB7 /* steak.jpeg */; };
+		3F50A81E1EC39E43005EAAB7 /* banana.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F50A81D1EC39E43005EAAB7 /* banana.jpeg */; };
+		3F50A8201EC39E4D005EAAB7 /* chicken.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F50A81F1EC39E4D005EAAB7 /* chicken.jpeg */; };
+		3F50A8221EC39E56005EAAB7 /* braed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F50A8211EC39E56005EAAB7 /* braed.jpeg */; };
+		3F50A8241EC39E5B005EAAB7 /* ice cream.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F50A8231EC39E5B005EAAB7 /* ice cream.png */; };
+		3F50A8261EC39E5F005EAAB7 /* yogurt.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F50A8251EC39E5F005EAAB7 /* yogurt.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F2FDB751EC25A920043EDEC /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = ../../../../Desktop/apple.png; sourceTree = "<group>"; };
-		3F2FDB771EC25A970043EDEC /* steak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = steak.jpeg; path = ../../../../Desktop/steak.jpeg; sourceTree = "<group>"; };
-		3F2FDB791EC25A9D0043EDEC /* chicken.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chicken.jpeg; path = ../../../../Desktop/chicken.jpeg; sourceTree = "<group>"; };
-		3F2FDB7B1EC25AA40043EDEC /* banana.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = banana.jpeg; path = ../../../../Desktop/banana.jpeg; sourceTree = "<group>"; };
-		3F2FDB7D1EC25AAC0043EDEC /* bread.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bread.jpeg; path = ../../../../Desktop/bread.jpeg; sourceTree = "<group>"; };
-		3F2FDB7F1EC25AB10043EDEC /* ice cream.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ice cream.jpeg"; path = "../../../../Desktop/ice cream.jpeg"; sourceTree = "<group>"; };
-		3F2FDB811EC25AB80043EDEC /* yogurt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yogurt.jpeg; path = ../../../../Desktop/yogurt.jpeg; sourceTree = "<group>"; };
 		3F32FA471EBBB78700D47718 /* HW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F32FA4A1EBBB78700D47718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F32FA4C1EBBB78700D47718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +29,13 @@
 		3F32FA511EBBB78700D47718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F32FA541EBBB78700D47718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F32FA561EBBB78700D47718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F50A8191EC39E30005EAAB7 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = ../../../../Desktop/apple.png; sourceTree = "<group>"; };
+		3F50A81B1EC39E37005EAAB7 /* steak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = steak.jpeg; path = ../../../../Desktop/steak.jpeg; sourceTree = "<group>"; };
+		3F50A81D1EC39E43005EAAB7 /* banana.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = banana.jpeg; path = ../../../../Desktop/banana.jpeg; sourceTree = "<group>"; };
+		3F50A81F1EC39E4D005EAAB7 /* chicken.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chicken.jpeg; path = ../../../../Desktop/chicken.jpeg; sourceTree = "<group>"; };
+		3F50A8211EC39E56005EAAB7 /* braed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = braed.jpeg; path = ../../../../Desktop/braed.jpeg; sourceTree = "<group>"; };
+		3F50A8231EC39E5B005EAAB7 /* ice cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ice cream.png"; path = "../../../../Desktop/ice cream.png"; sourceTree = "<group>"; };
+		3F50A8251EC39E5F005EAAB7 /* yogurt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yogurt.png; path = ../../../../Desktop/yogurt.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +71,13 @@
 				3F32FA4A1EBBB78700D47718 /* AppDelegate.swift */,
 				3F32FA4C1EBBB78700D47718 /* ViewController.swift */,
 				3F32FA4E1EBBB78700D47718 /* Main.storyboard */,
-				3F2FDB751EC25A920043EDEC /* apple.png */,
-				3F2FDB771EC25A970043EDEC /* steak.jpeg */,
-				3F2FDB791EC25A9D0043EDEC /* chicken.jpeg */,
-				3F2FDB7B1EC25AA40043EDEC /* banana.jpeg */,
-				3F2FDB7D1EC25AAC0043EDEC /* bread.jpeg */,
-				3F2FDB7F1EC25AB10043EDEC /* ice cream.jpeg */,
-				3F2FDB811EC25AB80043EDEC /* yogurt.jpeg */,
+				3F50A8251EC39E5F005EAAB7 /* yogurt.png */,
+				3F50A8231EC39E5B005EAAB7 /* ice cream.png */,
+				3F50A8211EC39E56005EAAB7 /* braed.jpeg */,
+				3F50A81D1EC39E43005EAAB7 /* banana.jpeg */,
+				3F50A81F1EC39E4D005EAAB7 /* chicken.jpeg */,
+				3F50A81B1EC39E37005EAAB7 /* steak.jpeg */,
+				3F50A8191EC39E30005EAAB7 /* apple.png */,
 				3F32FA511EBBB78700D47718 /* Assets.xcassets */,
 				3F32FA531EBBB78700D47718 /* LaunchScreen.storyboard */,
 				3F32FA561EBBB78700D47718 /* Info.plist */,
@@ -146,14 +146,14 @@
 			files = (
 				3F32FA551EBBB78700D47718 /* LaunchScreen.storyboard in Resources */,
 				3F32FA521EBBB78700D47718 /* Assets.xcassets in Resources */,
-				3F2FDB761EC25A920043EDEC /* apple.png in Resources */,
-				3F2FDB7A1EC25A9D0043EDEC /* chicken.jpeg in Resources */,
-				3F2FDB7E1EC25AAC0043EDEC /* bread.jpeg in Resources */,
-				3F2FDB821EC25AB80043EDEC /* yogurt.jpeg in Resources */,
-				3F2FDB801EC25AB10043EDEC /* ice cream.jpeg in Resources */,
+				3F50A8241EC39E5B005EAAB7 /* ice cream.png in Resources */,
+				3F50A81E1EC39E43005EAAB7 /* banana.jpeg in Resources */,
+				3F50A81A1EC39E30005EAAB7 /* apple.png in Resources */,
+				3F50A8221EC39E56005EAAB7 /* braed.jpeg in Resources */,
 				3F32FA501EBBB78700D47718 /* Main.storyboard in Resources */,
-				3F2FDB7C1EC25AA40043EDEC /* banana.jpeg in Resources */,
-				3F2FDB781EC25A970043EDEC /* steak.jpeg in Resources */,
+				3F50A81C1EC39E37005EAAB7 /* steak.jpeg in Resources */,
+				3F50A8201EC39E4D005EAAB7 /* chicken.jpeg in Resources */,
+				3F50A8261EC39E5F005EAAB7 /* yogurt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
