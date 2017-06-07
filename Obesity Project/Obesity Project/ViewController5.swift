@@ -1,23 +1,15 @@
 //
-//  ViewController2.swift
+//  ViewController5.swift
 //  Obesity Project
 //
-//  Created by Student on 5/30/17.
+//  Created by Student on 6/7/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
 
 import UIKit
 
-class ViewController2: UIViewController {
-    @IBAction func frootloop(_ sender: Any) {
-    }
-    @IBAction func omelette(_ sender: Any) {
-    }
-    @IBAction func pancakes(_ sender: Any) {
-    }
-    @IBAction func nothing(_ sender: Any) {
-    }
-   
+class ViewController5: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
