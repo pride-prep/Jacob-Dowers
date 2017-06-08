@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController4: UIViewController {
-    @IBAction func blt(_ sender: Any) {
+    @IBAction func bigmac(_ sender: Any) {
     }
     @IBAction func salad(_ sender: Any) {
     }

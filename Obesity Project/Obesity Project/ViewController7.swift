@@ -1,23 +1,21 @@
 //
-//  ViewController5.swift
+//  ViewController7.swift
 //  Obesity Project
 //
-//  Created by Student on 6/7/17.
+//  Created by Student on 6/8/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
 
 import UIKit
 
-class ViewController5: UIViewController {
-    @IBAction func blt(_ sender: Any) {
+class ViewController7: UIViewController {
+    @IBAction func pizza2(_ sender: Any) {
     }
-    @IBAction func hotdog(_ sender: Any) {
+    @IBAction func lasagna(_ sender: Any) {
     }
-    @IBAction func taco(_ sender: Any) {
+    @IBAction func steak(_ sender: Any) {
     }
-    @IBAction func nothing4(_ sender: Any) {
-    }
-    
+    @IBOutlet weak var nothing6: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
