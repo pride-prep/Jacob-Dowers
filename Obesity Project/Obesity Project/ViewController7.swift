@@ -15,7 +15,9 @@ class ViewController7: UIViewController {
     }
     @IBAction func steak(_ sender: Any) {
     }
-    @IBOutlet weak var nothing6: UIButton!
+    @IBAction func nothing6(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

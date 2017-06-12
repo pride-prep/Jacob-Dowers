@@ -9,6 +9,14 @@
 import UIKit
 
 class ViewController8: UIViewController {
+    @IBAction func trailmix(_ sender: Any) {
+    }
+    @IBAction func chips(_ sender: Any) {
+    }
+    @IBAction func watermelon(_ sender: Any) {
+    }
+    @IBAction func nothing7(_ sender: Any) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

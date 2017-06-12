@@ -1,21 +1,21 @@
 //
-//  ViewController2.swift
+//  ViewController9.swift
 //  Obesity Project
 //
-//  Created by Student on 5/30/17.
+//  Created by Student on 6/12/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
 
 import UIKit
 
-class ViewController2: UIViewController {
-    @IBAction func frootloop(_ sender: Any) {
+class ViewController9: UIViewController {
+    @IBAction func pretzels(_ sender: Any) {
     }
-    @IBAction func omelette(_ sender: Any) {
+    @IBAction func bananas(_ sender: Any) {
     }
-    @IBAction func pancakes(_ sender: Any) {
+    @IBAction func fruitsnacks(_ sender: Any) {
     }
-    @IBAction func nothing(_ sender: Any) {
+    @IBAction func nothing8(_ sender: Any) {
     }
     
     override func viewDidLoad() {
